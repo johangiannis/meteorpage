@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  float: none;
+  padding-right: 0;
+
+}
+
+h1.heading-1 {
+ color: #414141;
+
+ font-size: 4em;
+ font-family: 'Roboto Condensed', cursive;
+ margin-bottom: 4rem;
+}
+
+h2.heading-2 {
+ color: #414141;
+
+ font-size: 2em;
+ font-family: 'Roboto Condensed', cursive;
+}
+p {
+
+  color: #414141;
+  font-size: 1.2em;
+  font-family: 'Roboto Condensed', cursive;
+  margin-top: 1rem;
+
+}
+
+.brandtype {
+  font-size: 2em;
+  font-family: 'Roboto', cursive;
+  color: #414141;
+
+}
+
+.menulinktext {
+
+  font-size: 1.1em;
+  font-family: 'Roboto', cursive;
+  color: #414141;
+
+
+}
+
+.leftpad {
+
+  margin-left: 50px;
+}
+
+
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 120px;
+        text-align: center;
+        background-color: #eee;
+    }
+    .navbar>.container .navbar-brand-centered,
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+}
